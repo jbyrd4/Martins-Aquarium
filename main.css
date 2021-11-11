@@ -1,0 +1,95 @@
+.pageTitle {
+    border: 2px dotted green;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.background {
+    background-image: url('images/oceanbackground.jpg');
+    background-size: 100%;
+}
+
+.articletitle {
+    text-align: center;
+    color: darkgreen;
+}
+.contentLeft {
+    display: flex;
+    border: 2px solid green;
+    flex-basis: 65%;
+    flex-direction: column;
+    background-color: tan;
+    opacity: 80%;
+}
+
+.contentLeft__fish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid dimgray;
+    margin: .5em;
+}
+
+.contentLeft__quotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid dimgray;
+    margin: .5em;
+}
+
+.contentLeft__locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid dimgray;
+    margin: .5em;
+}
+
+.contentLeft__card {
+    border: 2px solid green;
+    color:saddlebrown;
+    margin: 1em;
+    padding: 1em;
+    font-weight: bold;
+    flex-shrink: 1;
+    flex-basis: 20%;
+}
+
+.contentRight {
+    display: flex;
+    border: 2px solid green;
+    flex-basis: 32%;
+    flex-direction: column;
+    background-color: tan;
+    color:saddlebrown;
+    opacity: 80%;
+    flex-shrink: 1;
+    flex-basis: 20%;
+}
+
+.contentRight__tip {
+    border: 2px dotted green;
+    margin: 1em;
+}
+
+.images {
+    width: 10em;
+    height: 10em;
+}
+
+.images-big {
+    width: 20em;
+    height: 20em;
+}
+
+.heading {
+    color: green;
+    font-weight: bold;
+}
